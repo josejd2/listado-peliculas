@@ -1,10 +1,8 @@
 import "./App.css";
-import ListaPeliculas from "./components/lista-peliculas/lista-peliculas";
+import FormRegistro from "./components/form-registro/form-registro";
 
 function App() {
-  return(
-    <ListaPeliculas/>
-  )    
+  return <FormRegistro/>  
 }
 
 export default App;
